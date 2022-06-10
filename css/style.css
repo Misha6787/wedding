@@ -71,13 +71,14 @@ h1{outline:none}
 
 .title {
     text-align: center;
+    padding-top: 6px;
     font-size: 48px;
     font-weight: 300;
     -webkit-animation: fadeTitle 0.7s; /* Chrome, Safari, Opera */
     -webkit-animation-delay: unset; /* Chrome, Safari, Opera */
     animation: fadeTitle 0.7s;
     animation-delay: unset;
-    margin-top: 24px     ;
+    margin-top: 24px;
 }
 .container {
     max-width: calc(100% - 112px);
