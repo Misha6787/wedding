@@ -9,6 +9,9 @@ body {
     margin: 0;
 }
 
+.parallax {
+    max-width: 100%;
+}
 ::selection{background-color: salmon; color: white;}
 .parallax > use {
     animation: move-forever 12s linear infinite;
@@ -103,10 +106,10 @@ h1{outline:none}
 
 @media (max-width: 1024px) {
     .card {
-        max-width: 80%;
+        max-width: 90%;
     }
     .convert {
-        max-width: 100%;
+        max-width: 90%;
     }
 }
 
