@@ -3,6 +3,10 @@
     src: url('../fonts/GoodVibesCyr.ttf'); /* Путь к файлу со шрифтом */
 }
 
+html {
+    -webkit-text-size-adjust: none;
+}
+
 body {
     font-family: GoodVibes, sans-serif;
     background-image: url("../image/bg.png");
